@@ -7,5 +7,5 @@
 
 namespace DE {
     /* Eulers Method: Takes function ptr, and step float, returns function ptr*/
-    std::function<float(float)> eulersMethod(std::function<float(float)> f, float step);
+    std::function<float(float)> eulersMethod(std::function<float(float)> f, float dt);
 }

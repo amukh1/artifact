@@ -8,6 +8,10 @@
 
 #include "./Diffeq/Diffeq.h"
 
+/*
+    falling object: y' = m/g * t, y = m/2g * t^2
+*/
+
 int main() {
     std::function<float(float)> f = [](float x) -> float {
         return std::sin(x);
